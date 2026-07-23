@@ -1,6 +1,6 @@
 package com.example.privacypolicy.adapter.inbound.http;
 
-import com.example.privacypolicy.domain.model.PrivacyPolicySummary;
+import com.example.privacypolicy.core.domain.model.PrivacyPolicySummary;
 import java.time.Instant;
 import java.time.LocalDate;
 

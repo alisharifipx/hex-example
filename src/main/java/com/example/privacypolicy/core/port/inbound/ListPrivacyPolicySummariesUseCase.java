@@ -1,6 +1,6 @@
 package com.example.privacypolicy.core.port.inbound;
 
-import com.example.privacypolicy.domain.model.PrivacyPolicySummary;
+import com.example.privacypolicy.core.domain.model.PrivacyPolicySummary;
 import java.util.List;
 
 /** Inbound (driving) port: list policy metadata without loading content bodies. */

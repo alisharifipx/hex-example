@@ -1,10 +1,10 @@
 package com.example.privacypolicy.adapter.outbound.persistence;
 
+import com.example.privacypolicy.core.domain.model.PrivacyPolicy;
+import com.example.privacypolicy.core.domain.model.PrivacyPolicySummary;
 import com.example.privacypolicy.core.port.outbound.LoadPrivacyPolicyPort;
 import com.example.privacypolicy.core.port.outbound.LoadPrivacyPolicySummariesPort;
 import com.example.privacypolicy.core.port.outbound.SavePrivacyPolicyPort;
-import com.example.privacypolicy.domain.model.PrivacyPolicy;
-import com.example.privacypolicy.domain.model.PrivacyPolicySummary;
 import java.util.List;
 import java.util.Optional;
 import lombok.AllArgsConstructor;

@@ -1,8 +1,8 @@
 package com.example.privacypolicy.core.service;
 
+import com.example.privacypolicy.core.domain.model.PrivacyPolicy;
 import com.example.privacypolicy.core.port.inbound.GetPrivacyPolicyUseCase;
 import com.example.privacypolicy.core.port.outbound.LoadPrivacyPolicyPort;
-import com.example.privacypolicy.domain.model.PrivacyPolicy;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

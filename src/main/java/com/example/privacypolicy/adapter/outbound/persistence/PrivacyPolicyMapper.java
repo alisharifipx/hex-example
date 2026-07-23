@@ -1,7 +1,7 @@
 package com.example.privacypolicy.adapter.outbound.persistence;
 
-import com.example.privacypolicy.domain.model.PrivacyPolicy;
-import com.example.privacypolicy.domain.model.PrivacyPolicySummary;
+import com.example.privacypolicy.core.domain.model.PrivacyPolicy;
+import com.example.privacypolicy.core.domain.model.PrivacyPolicySummary;
 import org.springframework.stereotype.Component;
 
 /** Translates between JPA persistence models and pure domain objects. */

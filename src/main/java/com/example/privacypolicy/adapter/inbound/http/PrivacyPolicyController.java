@@ -1,12 +1,12 @@
 package com.example.privacypolicy.adapter.inbound.http;
 
+import com.example.privacypolicy.core.domain.model.PrivacyPolicy;
 import com.example.privacypolicy.core.port.inbound.CreatePrivacyPolicyUseCase;
 import com.example.privacypolicy.core.port.inbound.CreatePrivacyPolicyUseCase.CreateCommand;
 import com.example.privacypolicy.core.port.inbound.GetPrivacyPolicyUseCase;
 import com.example.privacypolicy.core.port.inbound.ListPrivacyPolicySummariesUseCase;
 import com.example.privacypolicy.core.port.inbound.UpdatePrivacyPolicyUseCase;
 import com.example.privacypolicy.core.port.inbound.UpdatePrivacyPolicyUseCase.UpdateCommand;
-import com.example.privacypolicy.domain.model.PrivacyPolicy;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
 package com.example.privacypolicy.core.port.inbound;
 
-import com.example.privacypolicy.domain.model.PrivacyPolicy;
+import com.example.privacypolicy.core.domain.model.PrivacyPolicy;
 import java.time.LocalDate;
 
 /** Inbound (driving) port: update an existing policy, bumping its version. */

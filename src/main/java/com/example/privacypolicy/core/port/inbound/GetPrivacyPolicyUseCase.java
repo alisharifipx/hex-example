@@ -1,6 +1,6 @@
 package com.example.privacypolicy.core.port.inbound;
 
-import com.example.privacypolicy.domain.model.PrivacyPolicy;
+import com.example.privacypolicy.core.domain.model.PrivacyPolicy;
 
 /** Inbound (driving) port: retrieve a single full privacy policy by id. */
 public interface GetPrivacyPolicyUseCase {

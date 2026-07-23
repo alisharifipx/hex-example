@@ -1,8 +1,8 @@
 package com.example.privacypolicy.core.service;
 
+import com.example.privacypolicy.core.domain.model.PrivacyPolicy;
 import com.example.privacypolicy.core.port.inbound.CreatePrivacyPolicyUseCase;
 import com.example.privacypolicy.core.port.outbound.SavePrivacyPolicyPort;
-import com.example.privacypolicy.domain.model.PrivacyPolicy;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
